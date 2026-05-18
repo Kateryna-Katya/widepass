@@ -1,0 +1,149 @@
+.home-img{
+    display: none;
+}
+.home-wrapper{
+    margin-top: 80px;
+}
+.home-title{
+font-family: "Merge One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #010101;
+    margin-bottom: 20px;
+}
+.home-text{
+font-size: 15px;
+}
+.home-list{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    row-gap: 20px;
+}
+.home-item{
+border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 12px 10px;
+    width: 130px;
+    height: 68px;
+box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 4px;
+}
+.home-item-title{
+font-family: "Merge One", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center;
+    color: #010101;
+}
+.home-item-text{
+    line-height: 1.42857;
+    text-align: center;
+    color: #6a7282;
+}
+.home-link{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 24px;
+    padding: 10px 24px;
+    width: 323px;
+    height: 63px;
+    background: #252d8a;
+    font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #fff;
+}
+.home-container{
+    padding-bottom: 50px;
+}
+@media only screen and (min-width: 1440px) {
+ .home-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+ }
+ .home-img{
+    display: block;
+ }
+ .home-wrapper{
+    width: 892px;
+    margin-top: 0;
+ }
+ .home-title{
+    font-size: 60px;
+    margin-bottom: 40px;
+ }
+ .home-text{
+font-size: 20px;
+width: 820px;
+ }
+ .home-list{
+    justify-content: start;
+ }
+.home-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+width: 168px;
+    height: 102px;
+}
+.home-item-title{
+    font-size: 24px;
+}
+.home-item-text{
+    font-size: 14px
+}
+.h2{
+width: 229px;
+}
+.home-link{
+    margin-top: 64px;
+    margin-left: 0;
+    padding: 10px 24px;
+        width: 267px;
+}
+}
+/* A puzzle built around movement and flow. */
+.flow-section{
+    background: #252d8a;
+}
+.flow-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.flow-title{
+    color: #fff;
+}
+.flow-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.flow-container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.flow-text-wrapper{
+gap: 10px;
+width: 1270px;
+}    
+}
