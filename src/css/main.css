@@ -147,3 +147,37 @@ gap: 10px;
 width: 1270px;
 }    
 }
+/* Simple rules,
+clever solutions. */
+.rules-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+.rules-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.rules-container {
+flex-direction: row-reverse;
+        gap: 64px;
+        padding-top: 100px;
+    }
+.rules-wrapper{
+    width: 915px;
+}
+    .rules-text-wrapper {
+        gap: 20px;
+width: 880px;
+    }
+.desk{
+    display: block;
+}
+}
