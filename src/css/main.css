@@ -181,3 +181,28 @@ width: 880px;
     display: block;
 }
 }
+/* Hundreds of levels to explore. */
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.explore-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.explore-container{
+flex-direction: row;
+gap: 64px;
+}
+.explore-wrapper{
+width: 915px;
+}
+.explore-text-wrapper{
+    width: 880px;
+gap: 20px;
+}    
+}
