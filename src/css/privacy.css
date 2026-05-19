@@ -1,0 +1,103 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./main.css');
+@import url('./footer.css');
+
+.background {
+    text-align: left;
+    background: #fff;
+}
+
+.privacy-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+font-family: "Merge One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -0.04em;
+    color: #000;
+    text-align: center;
+}
+
+.policy-subtitle {
+font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.article{
+    font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #000;
+}
+.policy-container {
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 50px;
+}
+
+.policy-site {
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.break {
+    word-break: break-all;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+
+.policy-span {
+    font-weight: 700;
+}
+.policy-number{
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 70px;
+        padding-right: 80px;
+    }
+
+    .background {
+        font-size: 24px;
+    }
+
+    .privacy-title {
+    font-size: 50px;
+    }
+
+    .policy-subtitle {
+font-size: 30px;
+    }
+    .article{
+        font-size: 26px;
+    }
+}
